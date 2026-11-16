@@ -20,6 +20,8 @@ All of it lives in the `<style>` block of `src/app.html`. The charts and views r
 
 Fonts: Urbanist and JetBrains Mono (both OFL), loaded from Google Fonts. The mark in the top bar is embedded in the file.
 
+Third-party interface code: the three pillar folders in the evidence view are the **Glass Folder Cards** component from the 21st.dev component library (its source names no author). Its artwork generator, geometry and stylesheet are used as provided; the React rendering was rewritten as plain DOM so it runs in this single-file page. Each folder is a pillar, its files are that pillar's first PSI investigations (each opens its PSI record), and clicking a folder selects the pillar. The turning ring in the copilot window is the **AI loader** component from the same library (no author named), recoloured to the interface's ember and CH\* blue; it appears only inside the copilot.
+
 ## Structure
 
 - `src/app.html` — **the application** (HTML, CSS and JS). Edit here.
